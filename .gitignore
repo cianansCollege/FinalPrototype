@@ -1,0 +1,43 @@
+Data/
+*.tsv
+*.mp3
+*.wav
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+._*
+.DS_Store
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+*.env
+*.venv
+pythonvenvs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+FinalPrototype/accentmap/api/rf_model.pkl
+
+media/
+audio_storage/
+*.wav
+*.pkl
+*.mp3
+*.m4a
+__pycache__/
+*.sqlite3
+*.DS_Store
+
+fyp_env312/
+
