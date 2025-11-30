@@ -21,6 +21,12 @@ dist/
 *.pyo
 *.pyd
 
+# Python
+__pycache__/
+*.egg
+*.log
+*.sqlite3
+
 # Virtual environments
 venv/
 env/
