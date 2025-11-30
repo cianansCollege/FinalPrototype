@@ -20,6 +20,7 @@ dist/
 *.pyc
 *.pyo
 *.pyd
+.pyc
 
 # Python
 __pycache__/
