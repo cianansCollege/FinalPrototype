@@ -51,3 +51,6 @@ __pycache__/
 
 fyp_env312/
 
+accentmap/api/__pycache__/admin.cpython-312.pyc
+*.pyc
+*.pyc
