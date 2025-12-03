@@ -10,7 +10,7 @@ import joblib
 # Folder where your .wav files live
 AUDIO_DIR = "/Users/cianan/Documents/GitHub/FYP/Prototype1/data/audio/"
 
-# Path to your metadata CSV (the one you showed me)
+# Path to your metadata CSV
 METADATA_CSV = "/Users/cianan/Documents/GitHub/FYP/Prototype1/data/metadata.csv"   
 
 # Where to save the trained model (inside the Django app)
@@ -33,7 +33,7 @@ y = []
 for idx, row in df.iterrows():
     filename = row["filename"]
     # Use PROVINCE as the label for now
-    label = row["province"]      # <- change to "constituency" later if you want
+    label = row["province"]      # <- change to "constituency" later
 
     audio_path = os.path.join(AUDIO_DIR, filename)
 
